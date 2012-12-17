@@ -4,13 +4,15 @@
         <title>FDE</title>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="./css/style.css"/>
+        <link rel="stylesheet" media="screen and (max-width:640px)" href="css/mobile.css" type="text/css" />
+        <meta name="viewport" content="width=device-width">
         </script>
     </head>
     <body>
     	<header>
     		<div id="contentHeader">
             
-            <div id="calendar">
+            <div id="calendar" class="web">
             	<div id="date">
                 	<img src="img/header/icon_calendar.png" alt="calendrier"/>
                     <p id="day">28</p>
@@ -25,17 +27,17 @@
             <img src="img/header/logo.png" alt="logo fde" id="logo"/>
             
             
-            <div id="btn_twitter">
+            <div id="btn_twitter" class="web">
             	<img src="img/header/btn_twitter.png" alt="bouton twitter" width="81" height="46"/>
             </div>
             
             
-            <h1>The Association of Design Schools brings French innovation and design to the forefront</h1>
+            <h1 class="web">The Association of Design Schools brings French innovation and design to the forefront</h1>
             
     		</div><!-- contentHeader -->
     	</header>
     	<nav>
-    		<div id="contentNav">
+    		<div id="contentNav" class="web">
             
             	<ul id="nav">
                 	<li><a href="#"><img src="img/menu/icon_home.png" alt="home" /></a></li>
@@ -45,23 +47,49 @@
                 </ul>
 
     		</div><!-- End contentNav -->
+            
+            <div id="contentNav" class="mobile">
+            
+            	<ul id="nav" class="mobile">
+                	<li><a href="#"><img src="img/mobile/home.png" alt="home" /></a></li>
+                   	<li><a href="#">portfolio</a></li>
+                    <li id="barre_bleue"></li>
+                    <li><a href="#">forum</a></li>
+                </ul>
+
+    		</div><!-- End contentNav -->
+            
     	</nav>
     	<div id="wrapperCategories">
     		<section id="contentCategories">
+           
                 <div id="diaporama">
+               
             <div id="images">
+            
                 <div class="wrapper">
-                    <img src="img/screen1.jpg" alt="">
-                    <img src="img/screen1.jpg" alt="">
-                    <img src="img/screen1.jpg" alt="">
+                 	
+                
+                    <img src="img/screen1.jpg" alt="" >
+                    <img src="img/screen1.jpg" alt="" >
+                    <img src="img/screen1.jpg" alt="" >
+                    
+                   
+                    
+                    
+                    
                 </div>
+                
+                
             </div>
             <ul id="controlleur">
-                <li class="current" data-multiple="0" data-screen="1"></li>
-                <li data-multiple="1" data-screen="2"></li>
-                <li data-multiple="2" data-screen="3"></li>
+                <li class="current web" data-multiple="0" data-screen="1" ></li>
+                <li class="web" data-multiple="1" data-screen="2"></li>
+                <li class="web" data-multiple="2" data-screen="3"></li>
+                <li class="current mobile" data-multiple="0" data-screen="1" ><img src="img/mobile/arrow_right.png"/></li>
+                <li class="mobile" data-multiple="1" data-screen="2"><img src="img/mobile/arrow_left.png"/></li>
             </ul>
-            <div id="descriptions">
+            <div id="descriptions" class="web">
                 <div class="wrapper" data-margin="50">
                     <div class="description current">
                         <h2>INDEX 1</h2>
@@ -95,7 +123,7 @@
             </div>
             
         </div>
-        <div id="suscribe">
+        <div id="suscribe" class="web">
                     <p>Receive the event calendar every weeks</p>
                     <form action="">
                         <input type="text" placeholder="name@mail.com" />
@@ -106,7 +134,7 @@
     	</div><!-- End wrapperCategories -->
     	<div id="wrapperSubCategories">
     		<section id="contentSubCategories">
-                <ul id="subNav">
+                <ul id="subNav" class="web">
                     <li><a href="#">News</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Events</a></li>
@@ -114,7 +142,7 @@
                     <li><a href="#">Download</a></li>
                 </ul>
                 <div id="contentSubCategoriesLeft">
-                    <div class="article">
+                    <div class="article web">
                         <img src="img/content/article1.jpg" alt="Article 1" />
                         <div>
                             <p>Typography</p>
@@ -123,7 +151,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="article">
+                    <div class="article web">
                         <img src="img/content/article2.jpg" alt="Article 2" />
                         <div>
                             <p>Hello Word</p>
@@ -132,7 +160,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="article">
+                    <div class="article web">
                         <img src="img/content/article3.jpg" alt="Article 3" />
                         <div>
                             <p>Sonography</p>
@@ -141,7 +169,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="article">
+                    <div class="article web">
                         <img src="img/content/article4.jpg" alt="Article 4" />
                         <div>
                             <p>Theatre</p>
@@ -150,26 +178,26 @@
                             </div>
                         </div>
                     </div>
-                    <div id="contentSubCategoriesLeftBottom">
+                    <div id="contentSubCategoriesLeftBottom" >
                         <img src="img/subCategory/twitter.png" alt="Twitter" />
                         <h2>LAST TWEETS #fde</h2>
                         <div class="tweet">
                             <img src="img/subCategory/avatartwitter1.jpg" alt="Twitter" />
-                            <p><span class="textbold">An Maylou </span>  @annechai  <span style="color:black;"> 5min</span><p>
-                                <p>New #fde updates are coming to #fde_estienne Check out our sneak peek for more: <br/> http://on.fb.me/Sj0YBZ #fde_duperre</p>
+                            <p><span class="textbold">An Maylou </span>  @annechai  <span style="color:black;" class="time_mobile"> 5min</span><p>
+                                <p class="text_mobile">New #fde updates are coming to #fde_estienne Check out our sneak peek for more:  http://on.fb.me/Sj0YBZ #fde_duperre</p>
                         </div>
                         <div class="tweet">
                             <img src="img/subCategory/avatartwitter2.jpg" alt="Twitter" />
-                            <p><span class="textbold">Licorne rose </span>  @leataloc  <span style="color:black;"> 5min</span><p>
-                                <p>It's Day 2 at #fde -- tell us what you're most excited about by replying to @annethai using <br/> #fde_gobelins</p>
+                            <p><span class="textbold">Licorne rose </span>  @leataloc  <span style="color:black;" class="time_mobile2"> 5min</span><p>
+                                <p class="text_mobile">It's Day 2 at #fde -- tell us what you're most excited about by replying to @annethai using #fde_gobelins</p>
                         </div>
-                        <div class="followUs">
-                            <img src="img/subCategory/followus.jpg" alt="Twitter" />
+                        <div class="followUs" class="web">
+                            <img src="img/subCategory/followus.jpg" alt="Twitter"class="web" />
                         </div>
                     </div>
                 </div>
-                <div id="contentSubCategoriesRight">
-                    <div id="selectDateSubCategory">
+                <div id="contentSubCategoriesRight" class="web">
+                    <div id="selectDateSubCategory" class="web">
                         <ul id="controlleur2">
                             <li class="current" data-multiple="0" data-screen="1">06 DEC</li>
                             <li data-multiple="1" data-screen="2">28 NOV</li>
@@ -223,14 +251,14 @@
     		<div id="contentFooter">
                <img src="img/subCategory/logo_fde.png" id="logoFooter" alt="FDE" />
                <h2>“ Design is creativity with strategy. ”<span id="sloganBy">ROB CUREDALE</span></h2>
-               <div id="joinUs">
+               <div id="joinUs" class="web">
                     <p>JOIN US</p>
 
                     <p>France design education<br/>75 boulevard richelieu<br/>75015 Paris</p>
                </div>
-               <div id="menuFooter">
-                    <div class="left"><p>présentation</p><p>Membres</p><p>partenaires</p></div>
-                    <div class="right"><p>commissions</p><p>international</p><p>cumulus association</p></div>
+               <div id="menuFooter" class="web">
+                    <div class="left web" ><p>présentation</p><p>Membres</p><p>partenaires</p></div>
+                    <div class="right web"><p>commissions</p><p>international</p><p>cumulus association</p></div>
                </div>
     		</div><!-- End contentFooter -->
     	</footer>
