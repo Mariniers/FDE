@@ -118,7 +118,7 @@
 	float: left;
 	border: 1px solid #d5d3d3;
 	position: relative;
-		overflow: hidden;
+	overflow: hidden;
 }
 
 #gridView .case a.current{
@@ -163,7 +163,7 @@
 
 #gridView .control{
 	text-align: right;
-	margin-right: 18px;
+	margin-right: 19px;
 	clear: both;
 	padding-top: 10px;}
 
@@ -180,15 +180,235 @@
 	vertical-align: top;
 }
 
+#contentGrid {
+	width: 940px;
+	margin: auto;
+	padding-top: 42px;
+	padding-bottom: 40px;
+}
 
+#contentGrid>div {
+	display: inline-block;
+	font-size: 0;
+}
 
+#contentGrid #contentLeft{
+	width: 300px;
+	border: 1px solid #d7d7d7;
+	background-color: #FFF;
+	vertical-align: top;
+}
 
+#contentGrid #contentRight{
+	width: 630px;
+}
 
+#author {
+	font-family:"GillSansMT";
+	font-weight:300;
+	color:#414141;
+	-webkit-font-smoothing: antialiased;
+	text-transform: uppercase;
+	text-align: center;
+		overflow: hidden;
+}
 
+#author #pic-auth{
+	border-bottom: 9px solid #68ccc7;
+	-webkit-transition:all 0.4s;
+}
 
+#author .name{
+	margin-top: 25px;
+	margin-bottom: 20px;
+	font-size: 24px;
+}
 
+#author .specialite{
+	margin-bottom: 25px;
+	font-size: 14px;
+}
 
+#author hr{
+	border: 0;
+	width:55px;
+	height: 1px;
+	background-color: #d7d7d7;
+}
 
+#author .icons{
+	margin-top: 30px;
+	margin-bottom: 37px;
+	font-size: 0px;
+}
 
+#author .icons li{
+	display: inline-block;
+	margin-right: 1px;
+}
 
+#author .skills {
+	margin-top: 30px;
+	margin-bottom: 37px;
+	font-size: 0px;
+}
+
+#author .skills li{
+	display: inline-block;
+	width: 99px;
+	height: 62px;
+	background-color: #68ccc7;
+	border-bottom : 1px solid #3e9893;
+}
+
+#author .skills li p{
+	font-size: 15px;
+	text-transform: uppercase;
+	word-wrap: break-word;
+	padding-top: 18px;
+	color: #FFF;
+	padding-left: 15px;
+	padding-right: 15px;
+	-webkit-font-smoothing: antialiased;
+}
+
+#author .skills li:nth-child(2){
+	border-right: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
+}
+
+#author .studies{
+	text-transform: none;
+	color:#7e7e7e;
+	line-height: 20px;
+	font-weight: 200;
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+
+#author .job{
+	color:#414141;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+
+#author .hire{
+	height: 47px;
+	background-color: #454143;
+}
+
+#author .hire a{
+	color: #ffffff;
+	padding-top: 18px;
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+#contentRight #diaporama #images .wrapper img{
+	width: 581px;
+	height: 433px;
+}
+
+#contentRight #diaporama {
+	width: 100%;
+	background-color: transparent;
+	font-size: 0;
+	margin-top: 0px;
+	margin-left: 20px;
+}
+
+#contentRight #diaporama #images {
+	width: 581px;
+	height: 433px;
+	overflow: hidden;
+	display: inline-block;
+	margin-right: 17px;
+}
+
+#contentRight #diaporama #controlleur li {
+	width: 10px;
+	height: 100px;
+	margin-bottom: 11px;
+	list-style-type: none;
+	cursor: pointer;
+}
+
+#contentRight #diaporama #descriptions {
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	margin-left: 0px;
+	font-size: 0px;
+	overflow: hidden;
+	height: 210px;
+	position: relative;
+}
+
+#contentRight #diaporama .description {
+	width: 100%;
+	height: 210px;
+	display: none;
+	font-size: 15px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#contentRight .description h2 {
+	text-transform: uppercase;
+	font-family: "GillSansMT";
+	font-weight: 300;
+	color: #454143;
+	font-size: 18px;
+	-webkit-font-smoothing: antialiased;
+	margin-left: 60px;
+	margin-top: 35px;
+}
+
+#contentRight .description p {
+	text-transform: none;
+	font-family: "GillSansMT";
+	font-weight: 300;
+	color: #7e7e7e;
+	font-size: 12px;
+	-webkit-font-smoothing: antialiased;
+	margin-left: 80px;
+	margin-top: 30px;
+	width: 305px;
+	text-align: justify;
+}
+
+#contentRight .control{
+	text-align: right;
+	padding-top: 10px;
+}
+
+#contentRight .control a{
+	margin-right: 1px;
+	height: 40px;
+}
+
+#contentRight .control p{
+	display: inline-block;
+	font-size: 14px;
+	font-family: "GillSansMT";
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #56a8a4;
+	-webkit-font-smoothing: antialiased;
+	margin-right: 10px;
+	padding-top: 4px;
+	vertical-align: top;
+	line-height: 20px;
+}
+
+#contentRight #diaporama .description .more {
+	text-align: left;
+	position: absolute;
+	bottom: 8px;
+	width: 111px;
+	right: 80px;
+}
 
