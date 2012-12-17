@@ -588,7 +588,7 @@ nav{
 	height: 54px;
 	background-color: white;
 	position: relative;
-	top: -58px;
+	top: -54px;
 	border: none;
 	opacity: 0.9;
 	-webkit-transition:all 0.4s;
@@ -722,7 +722,7 @@ nav{
 
 #contentSubCategoriesLeft #resume{
 	border: none;
-	width: 637px;
+	width: 623px;
 	height: 136px;
 	border-left: 5px solid #68ccc7;
 	background-color: #414141;
@@ -730,19 +730,19 @@ nav{
 
 #contentSubCategoriesLeft #chiffres{
 	border: none;
-	width: 389px;
+	width: 375px;
 	height: 136px;
 	margin-right: 0;
 }
 
 #contentSubCategoriesLeft #chiffres .chiffresSub{
 	border: none;
-	width: 84px;
+	width: 104px;
 	height: 56px;
 	text-align: center;
 	margin: 0;
 	margin-left: 4px;
-	margin-top: 26px;
+	margin-top: 19px;
 }
 
 #contentSubCategoriesLeft #chiffres .chiffresSub p{
@@ -764,11 +764,158 @@ nav{
 }
 #contentSubCategoriesLeft #links{
 	border: none;
-	width: 242px;
+	width: 244px;
 	height: 136px;
 	background-color: #363636;
 }
 
+#contentSubCategoriesLeft #links div{
+	border: none;
+	width: 244px;
+	margin: 0;
+	height: 46px;
+	border-bottom: 1px solid white;
+}
+
+#contentSubCategoriesLeft #links div p{
+	color: white;
+	font-size: 12px;
+	line-height: 25px;
+	text-align: center;
+	margin-left: 0;
+}
+#contentSubCategoriesLeft #links div p a{
+	text-decoration: none;
+	color: white;
+}
+
+#contentSubCategoriesLeft #diaporama{
+	width: 323px;
+	height: 228px;
+	border: none;
+	background-color: transparent;
+	margin: 0;
+	overflow: hidden;
+}
+
+#contentSubCategoriesLeft #diaporama .article{ margin-right: 3px; }
+
+#contentSubCategoriesLeft #diaporama #controlleur{ margin: 0; }
+
+#contentSubCategoriesLeft #diaporama #controlleur li{ width: 5px; height: 44px; margin-bottom: 2px;}
+
+#contentSubCategoriesLeft #portfolioSchool{
+	border: none;
+	margin: 0;
+}
+
+#contentSubCategoriesLeft #internationalSchool{
+	background-color: white;
+	border: 1px solid #D9D9D9;
+	margin-top: 23px;
+	width: 627px;
+	height: 232px;
+}
+
+#contentSubCategoriesLeft #internationalSchool #internationalSchoolLeft{
+	margin: 0;
+	height: 232px;
+	width: 383px;
+	border: none;
+	margin-top: 13px;
+}
+
+#contentSubCategoriesLeft #internationalSchool #internationalSchoolLeft h2{
+	display: inline-block;
+	font-family:"GillSansMT";
+	font-weight:300;
+	color: #292929;
+	-webkit-font-smoothing: antialiased;
+	line-height: 28px;
+	margin-left: 20px;
+}
+
+#contentSubCategoriesLeft #internationalSchool #internationalSchoolLeft img:first-child{
+	margin-left: 13px;
+}
+
+#contentSubCategoriesLeft #internationalSchool #internationalSchoolLeft p{
+	font-family:"GillSansMT";
+	font-weight:300;
+	color: #292929;
+	-webkit-font-smoothing: antialiased;
+	text-transform: none;
+	font-size: 13px;
+}
+
+#contentSubCategoriesLeft #internationalSchool #internationalSchoolRight{
+	background-color: #68CCC7;
+	width: 240px;
+	margin: 0;
+	border: none;
+	height: 232px;
+}
+
+#contentSubCategoriesLeft #internationalSchool #internationalSchoolRight div{
+	border: none;
+	border-bottom: 1px solid white;
+	height: 58px;
+	margin: 0;
+}
+
+#contentSubCategoriesLeft #internationalSchool #internationalSchoolRight div p{
+	font-family: "GillSansMT";
+	font-weight: 300;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	font-size: 12px;
+	display: inline-block;
+	margin: 0;
+	width: 167px;
+	margin-top: 23px;
+}
+
+#contentSubCategoriesLeft #internationalSchool #internationalSchoolRight div p a{
+	color: white;
+	text-decoration: none;
+}
+
+#contentSubCategoriesRight .moreInformations{
+   height: 136px;
+}
+
+#contentSubCategoriesRight #schoolInformations{
+   height: 136px;
+   background-color: #414141;
+   width: 260px;
+   display: inline-block
+}
+
+#contentSubCategoriesRight #schoolInformations p{
+   width: 169px;
+	position: relative;
+	top: -122px;
+	left: 74px;
+	font-family:"GillSansMT";
+	font-weight:300;
+	color: white;
+	font-size: 13px;
+	-webkit-font-smoothing: antialiased;
+}
+
+#contentSubCategoriesRight #rsSchool{
+   display: inline-block;
+   width: 36px;
+   top: -4px;
+	position: relative;
+}
+
+#contentSubCategoriesRight #rsSchool img{
+   position: relative;
+   left: -4px;
+   top: 1px;
+	vertical-align: bottom;
+}
 /*FOOTER*/
 
 footer{
