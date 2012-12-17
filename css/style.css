@@ -327,6 +327,26 @@ nav{
 	border: none;
 }
 
+#diaporama .diapoMoreInfo{
+	position: relative;
+	background-color: white;
+	top: -835px;
+	z-index: 3;
+	height: 57px;
+	opacity: 0.8;
+	padding-top: 41px;
+	padding-left: 20px;
+}
+
+#diaporama .diapoMoreInfo p{
+	text-transform:uppercase;
+	font-family:"GillSansMT";
+	font-weight:300;
+	/*color: #68ccc7;*/
+	font-size: 20px;
+	-webkit-font-smoothing: antialiased;
+}
+
 .description h2{
 	text-transform:uppercase;
 	font-family:"GillSansMT";
@@ -499,7 +519,7 @@ nav{
 #contentSubCategoriesLeft #contentSubCategoriesLeftBottom{
 	width: 623px;
 	height: 213px;
-	border: 1px solid #628f8d;
+	border: 1px solid #56a8a4;
 	background-color: #68ccc7;
 	padding-top: 17px;
 }
@@ -552,6 +572,15 @@ nav{
 	line-height: 17px;
 	margin-top: 0;
 	text-transform: none;
+}
+
+#contentSubCategoriesLeft #contentSubCategoriesLeftBottom .tweet p .time_mobile{
+	position: relative;
+	right: -332px;
+}
+#contentSubCategoriesLeft #contentSubCategoriesLeftBottom .tweet p .time_mobile2{
+	position: relative;
+	right: -326px;
 }
 
 #contentSubCategoriesLeft #contentSubCategoriesLeftBottom .tweet p .textbold{
@@ -646,9 +675,9 @@ nav{
 }
 
 #contentSubCategoriesRight #selectDateSubCategory #controlleur2 li{
-	height: 35px;
+	height: 42px;
 	border-left: 10px solid #414141;
-	margin-bottom: 14px;
+	margin-bottom: 4px;
 	list-style-type: none;
 	cursor: pointer;
 	font-family:"GillSansMT";
@@ -936,7 +965,7 @@ footer{
 }
 
 #contentFooter #logoFooter{
-	margin-top: 30px;
+	margin-top: 25px;
 	margin-left: 40px;
 }
 
